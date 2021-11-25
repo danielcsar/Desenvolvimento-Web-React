@@ -33,8 +33,8 @@ Os endpoints a serem utilizados são os seguintes:
 
 ### _Colaboradores_
 
-- [MARCOS MORAES](https://github.com/marcosmoraesnf)
 - [DANIEL CESAR](https://github.com/danielcsar)
+- [MARCOS MORAES](https://github.com/marcosmoraesnf)
 - [CAROL TARDIN](https://github.com/caroltardin)
 - [NATHAN GUIMÃRAES](https://github.com/nathan-guimaraes)
 - [ADRIAN MENEZES](https://github.com/AdrianMSilva)
