@@ -1,6 +1,7 @@
 # Atividade 02 - Trabalho Final
 
 Baixe ou crie um fork do projeto [serratec-atividade](https://github.com/YagoAzevedo/serratec-atividade).
+
 Nesse projeto crie a implementação
 dos seguintes requisitos:
 
@@ -19,14 +20,18 @@ animação do Lottie da mesma forma que a tela de listagem dos alunos. Para test
 esse comportamento basta recarregar a página (f5), já estando na tela de edição do
 aluno.
 
+```
 **Comandos necessários:** 
-yarn add styled-components,
-yarn add @material-ui/icons
-yarn add @material-ui/core@next @emotion/react @emotion/styled @material-ui/icons @mui/material
-yarn add react-router-dom@6
-yarn add react-lottie
 
+    yarn add styled-components
+    yarn add @material-ui/icons
+    yarn add @material-ui/core@next @emotion/react @emotion/styled @material-ui/icons @mui/material
+    yarn add react-router-dom@6
+    yarn add react-lottie
+```
 <br>
+---
+
 ### _Colaboradores_
 
 - [DANIEL CESAR](https://github.com/danielcsar)
