@@ -137,14 +137,16 @@ export default function PersistentDrawerLeft() {
           "& .MuiDrawer-paper": {
             width: drawerWidth,
             boxSizing: "border-box",
+            backgroundColor: "#1976d2", 
+            color: "#fff"
           },
         }}
         variant="persistent"
         anchor="left"
         open={open}
       >
-        <DrawerHeader>
-          <IconButton onClick={handleDrawerClose}>
+        <DrawerHeader sx={{ backgroundColor: "#1976d2", color: "#fff"}} >
+          <IconButton sx={{ color: "#fff"}} onClick={handleDrawerClose}>
             {theme.direction === "ltr" ? (
               <ChevronLeftIcon />
             ) : (
@@ -154,7 +156,7 @@ export default function PersistentDrawerLeft() {
         </DrawerHeader>
         <Divider />
         <Divider />
-        <List>
+        <List sx={{ backgroundColor: "#1976d2", color: "#fff"}}>
           <ListItem disablePadding>
             <ListItemButton>
               <Link to="/">
@@ -166,20 +168,6 @@ export default function PersistentDrawerLeft() {
             <ListItemButton>
               <Link to="/cadastrar-alunos">
                 <Button color="inherit">Cadastro de Aluno</Button>
-              </Link>
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton>
-              <Link to="/listar-materias">
-                <Button color="inherit">Listagem de Matérias</Button>
-              </Link>
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton>
-              <Link to="/cadastrar-materias">
-                <Button color="inherit">Cadastro de Materias</Button>
               </Link>
             </ListItemButton>
           </ListItem>
